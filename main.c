@@ -9,6 +9,7 @@ int main(void) {
   double gradevalue;
   char *grade = readline("Enter your CMPSC 131 grade: ");
   gradevalue = atof(grade);
+  char* lettergrade;
   if (gradevalue >= 93.0) {
     char *lettergrade = "A";
   }
@@ -36,6 +37,6 @@ int main(void) {
   else if (gradevalue < 60.0) {
     char *lettergrade = "F";
   }
-  printf("Your letter grade for CMPSC 131 is %s\n",grade);
+  printf("Your letter grade for CMPSC 131 is %s\n",lettergrade);
   return 0;
 }
