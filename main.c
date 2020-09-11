@@ -11,31 +11,31 @@ int main(void) {
   gradevalue = atof(grade);
   char* lettergrade;
   if (gradevalue >= 93.0) {
-    char *lettergrade = ("A");
+    lettergrade = "A";
   }
   if (gradevalue >= 90.0) {
-    char *lettergrade = "A-";
+    lettergrade = "A-";
   }
   if (gradevalue >= 87.0) {
-    char *lettergrade = "B+";
+    lettergrade = "B+";
   }
   if (gradevalue >= 83.0) {
-    char *lettergrade = "B";
+    lettergrade = "B";
   }
   if (gradevalue >= 80.0) {
-    char *lettergrade = "B-";
+    lettergrade = "B-";
   }
   if (gradevalue >= 77.0) {
-    char *lettergrade = "C+";
+    lettergrade = "C+";
   }
   if (gradevalue >= 70.0) {
-    char *lettergrade = "C";
+    lettergrade = "C";
   }
   if (gradevalue >= 60.0) {
-    char *lettergrade = "D";
+    lettergrade = "D";
   }
   else if (gradevalue < 60.0) {
-    char *lettergrade = "F";
+    lettergrade = "F";
   }
   printf("Your letter grade for CMPSC 131 is %s\n",lettergrade);
   return 0;
