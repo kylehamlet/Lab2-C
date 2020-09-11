@@ -13,7 +13,7 @@ char *lettergrade;
   if (gradevalue >= 93.0) {
     lettergrade = "A";
   }
-  if (gradevalue >= 90.0) {
+  if (gradevalue >= 90.0 <93.0) {
     lettergrade = "A-";
   }
   if (gradevalue >= 87.0) {
