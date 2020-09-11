@@ -34,7 +34,7 @@ char *lettergrade;
   if (gradevalue >= 60.0) {
     lettergrade = "D";
   }
-  else if (gradevalue < 60.0) {
+  if (gradevalue < 60.0) {
     lettergrade = "F";
   }
   if (gradevalue < 93.0) {
