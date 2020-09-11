@@ -11,7 +11,7 @@ int main(void) {
   gradevalue = atof(grade);
   char* lettergrade;
   if (gradevalue >= 93.0) {
-    char *lettergrade = "A";
+    char *lettergrade = ("A");
   }
   if (gradevalue >= 90.0) {
     char *lettergrade = "A-";
