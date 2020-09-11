@@ -31,9 +31,6 @@ char *lettergrade;
   if (gradevalue >= 70.0) {
     lettergrade = "C";
   }
-  if (gradevalue >= 60.0) {
-    lettergrade = "D";
-  }
   if (gradevalue < 60.0) {
     lettergrade = "F";
   }
@@ -56,6 +53,9 @@ char *lettergrade;
     lettergrade = "C";
   }
   if (gradevalue < 70.0) {
+    lettergrade = "D";
+  }
+  else if (gradevalue < 60.0) {
     lettergrade = "D";
   }
   printf("Your letter grade for CMPSC 131 is %s.\n",lettergrade);
