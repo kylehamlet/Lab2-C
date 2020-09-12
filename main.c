@@ -13,25 +13,25 @@ char *lettergrade;
   if (gradevalue >= 93.0) {
     lettergrade = "A";
   }
-  else if (93.0 > gradevalue >= 90.0) {
+  else if (93.0 > gradevalue && gradevalue >= 90.0) {
     lettergrade = "A-";
   }
-  else if (90.0 > gradevalue >= 87.0) {
+  else if (90.0 > gradevalue && gradevalue >= 87.0) {
     lettergrade = "B+";
   }
-  else if (87.0 > gradevalue >= 83.0) {
+  else if (87.0 > gradevalue && gradevalue >= 83.0) {
     lettergrade = "B";
   }
-  else if (83.0 > gradevalue >= 80.0) {
+  else if (83.0 > gradevalue && gradevalue >= 80.0) {
     lettergrade = "B-";
   }
-  else if (80.0 > gradevalue >= 77.0) {
+  else if (80.0 > gradevalue && gradevalue >= 77.0) {
     lettergrade = "C+";
   }
-  else if (77.0 > gradevalue >= 70.0) {
+  else if (77.0 > gradevalue && gradevalue >= 70.0) {
     lettergrade = "C";
   }
-  else if (70.0 > gradevalue >= 60.0) {
+  else if (70.0 > gradevalue && gradevalue >= 60.0) {
     lettergrade = "D";
   }
   else if (gradevalue < 60.0) {
